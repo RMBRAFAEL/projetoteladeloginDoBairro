@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" href="images/celular.png">
+  
+  <title>Do Bairro | Formulário de Login</title>
+
+  <!-- Link cdn fonts awesome -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+  <!-- Arquivo externo css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="box"></div>
+    <div class="box">
+      <button class="github" onclick="apertou()">Clique no botão e entre no Bairro &nbsp;&nbsp;<i class="fab fa-github-square"></i></button>
+    </div>
+    <div class="box-2 texto">
+      <h1>Faça parte Do Bairro!</h1>
+      <p>Projeto desenvolvido em sala de aula por alunos da Uninassau - Caxánga, do curso de ADS, a pedido da professora Flávia.
+        </p> 
+        <p>Onde moro me supre de todos os lugares penso em conhecer.</p>
+      </p>
+
+      <p class="dev"><i class="fas fa-copyright"></i>&nbsp;&nbsp;Desenvolvido por Alunos Do Bairro!</p>
+    </div>
+    <div class="box">
+      <div class="formulario">
+          <br>
+          <p class="icones"><i class="fas fa-user-circle"></i>&nbsp;NOME:</p>
+          <input type="text" name="nome" placeholder="Primeiro Nome">
+          <p class="icones"><i class="fas fa-id-badge"></i>&nbsp;SOBRENOME:</p>
+          <input type="text" name="nome" placeholder="Sobrenome">
+          <p class="icones"><i class="fas fa-envelope-square"></i>&nbsp;EMAIL:</p>
+          <input type="email" name="nome" placeholder="Email">
+          <p class="icones"><i class="fas fa-lock"></i>&nbsp;SENHA:</p>
+          <input type="password" name="nome" placeholder="Senha">
+
+          <button class="cadastrar" onclick="login()">Cadastrar dados</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    function apertou(){
+        window.open('https://rmbrafael.github.io/projetodobairro/', '_blank');
+    }
+
+    function login(){
+      alert('Cadastro realizado com sucesso, seja bem vindo!)')
+    }
+  </script>
+</body>
+</html>
